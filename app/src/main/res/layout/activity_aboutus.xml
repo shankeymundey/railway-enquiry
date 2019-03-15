@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blk"
+    android:orientation="vertical"
+    tools:context="com.example.yogesh.train.Aboutus">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/protwo" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorwhite"
+    android:textStyle="bold"
+    android:layout_marginLeft="80dp"
+    android:fontFamily="cursive"
+    android:textSize="25dp"
+    android:text="Shankey  Mundey"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:layout_marginLeft="5dp"
+        android:text="(developer)"
+        android:textSize="20dp"
+        android:fontFamily="cursive"/>
+</LinearLayout>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:layout_marginLeft="18dp"
+        android:text="student at G.B. pant government engineering college(IPU) B.tech CSE batch 2016-2020.
+lives in north east delhi.
+               To contact mail on - \n         shankeymundey085@gmail.com"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/scenery">
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/trn"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shankey Mundey"
+        android:textColor="@color/colorwhite"
+        android:textStyle="bold"/>
+    <TextView
+        android:textColor="@color/colorwhite"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shankeymundey085@gmail.com"/>
+
+</LinearLayout>

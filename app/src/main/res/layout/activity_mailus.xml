@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blk"
+    tools:context="com.example.yogesh.train.Mailus">
+
+
+
+<TextView
+    android:layout_marginLeft="55dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:textColor="@color/colorwhite"
+    android:textStyle="bold"
+    android:text="feedback or suggestions"/>
+
+<TextView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:textColor="@color/colorwhite"
+    android:text="Enter your message"/>
+
+<EditText
+    android:layout_marginLeft="10dp"
+    android:background="@color/colorwhite"
+    android:layout_height="50dp"
+    android:layout_width="350dp"
+    android:id="@+id/t2"/>
+
+<Button
+    android:layout_marginLeft="275dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Send"
+    android:onClick="clk"/>
+
+</LinearLayout>

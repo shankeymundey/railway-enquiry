@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blk"
+    tools:context="com.example.yogesh.train.NmbrToTrainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorwhite"
+    android:text="Enter the Train number:"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="300dp"
+        android:id="@+id/tno"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhite"/>
+    <Button
+        android:onClick="srchnamebtn"
+        android:text="search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="235dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:text="OR"
+        android:textSize="30dp"
+        android:layout_marginLeft="140dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:text="Enter the Train name:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:id="@+id/tna"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhite"/>
+    <Button
+        android:text="search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="235dp"
+        android:onClick="srchnobtn"/>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lvno">
+
+</ListView>
+</LinearLayout>

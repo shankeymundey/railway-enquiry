@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blk"
+    tools:context="com.example.yogesh.train.Main2Activity">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:text="Source station:"/>
+<EditText
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="20dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/src"
+    android:background="@color/colorwhite"
+    />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:text="Destination station:"/>
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dst"
+        android:background="@color/colorwhite"
+        />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:text="Select Date"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhite"
+        android:id="@+id/dt" />
+        <Button
+            android:onClick="chosedate"
+            android:drawableLeft="@drawable/ic_date_24dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="get trains"
+        android:background="@drawable/shape"
+        android:onClick="trainbtwstation"/>
+
+</LinearLayout>

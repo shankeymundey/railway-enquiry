@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blk"
+    tools:context="com.example.yogesh.train.StationCodeActivity">
+<TextView
+    android:layout_marginLeft="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="Enter the station name:"
+    android:textColor="@color/colorwhite"/>
+    <EditText
+        android:layout_marginTop="10dp"
+    android:id="@+id/e1"
+        android:layout_marginLeft="20dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+        android:background="@color/colorwhite"
+    />
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="235dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get"
+        android:onClick="getbtn"/>
+ <ListView
+
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/lv">
+
+ </ListView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blk"
+    tools:context="com.example.yogesh.train.Cancel">
+<TextView
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorwhite"
+    android:text="Enter date"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/td2"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorwhite"
+        android:layout_width="260dp"
+        android:layout_height="28dp" />
+    <Button
+        android:drawableBottom="@drawable/ic_date_24dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="chosedt"
+        />
+    </LinearLayout>
+    <Button
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="5dp"
+        android:onClick="canclbtnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="get cancelled trains"/>
+    <ListView
+        android:id="@+id/lvcan"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>

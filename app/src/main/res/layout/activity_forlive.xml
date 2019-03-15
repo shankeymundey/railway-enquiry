@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blk"
+    tools:context="com.example.yogesh.train.Forlive">
+    <TextView
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter train no."
+    android:textColor="@color/colorwhite"/>
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorwhite"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tn"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorwhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Enter Date"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorwhite"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:id="@+id/td"/>
+    <Button
+        android:drawableLeft="@drawable/ic_date_24dp"
+        android:onClick="chosedate2"
+        android:layout_width="43dp"
+        android:layout_height="37dp" />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="210dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="live status"
+        android:onClick="livestatusbtn"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:textColor="@color/colorwhite"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current station:"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorwhite"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/colorwhite"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current status:"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+        android:id="@+id/tv2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="270dp"
+        android:textColor="@color/colorwhite"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/llv"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+    </ListView>
+</LinearLayout>
