@@ -70,7 +70,7 @@ public class Cancel extends AppCompatActivity {
             try {
 
                 String date = td2.getText().toString().trim();
-                String addrs = "https://api.railwayapi.com/v2/cancelled/date/"+date+"/apikey/mr3ivk4qmu/";
+                String addrs = "https://api.railwayapi.com/v2/cancelled/date/"+date+"/apikey/dowkgyyi2v/";
                 java.net.URL url = new java.net.URL(addrs);
                 HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
                 con.connect();

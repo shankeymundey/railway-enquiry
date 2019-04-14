@@ -68,9 +68,9 @@ int check=0;
         protected String doInBackground(String... strings) {
             try{
                 if (check==1)
-                { notonameapi="https://api.railwayapi.com/v2/name-number/train/"+No+"/apikey/mr3ivk4qmu/";}
+                { notonameapi="https://api.railwayapi.com/v2/name-number/train/"+No+"/apikey/dowkgyyi2v/";}
                  if (check==2)
-                 {notonameapi="https://api.railwayapi.com/v2/name-number/train/"+Nm+"/apikey/mr3ivk4qmu/";}
+                 {notonameapi="https://api.railwayapi.com/v2/name-number/train/"+Nm+"/apikey/dowkgyyi2v/";}
                 java.net.URL url=new java.net.URL(notonameapi);
                 HttpsURLConnection con=(HttpsURLConnection)url.openConnection();
                 con.connect();

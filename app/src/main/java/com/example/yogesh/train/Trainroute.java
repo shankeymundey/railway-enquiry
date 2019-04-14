@@ -56,7 +56,7 @@ TextView tnm,tno;
             try {
 
                 String nameornumber = t1.getText().toString().trim();
-                String addrs = "https://api.railwayapi.com/v2/route/train/" + nameornumber + "/apikey/mr3ivk4qmu/";
+                String addrs = "https://api.railwayapi.com/v2/route/train/" + nameornumber + "/apikey/dowkgyyi2v/";
                 java.net.URL url = new java.net.URL(addrs);
                 HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
                 con.connect();

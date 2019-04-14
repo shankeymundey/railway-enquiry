@@ -42,7 +42,7 @@ public class Main2Activity extends AppCompatActivity {
         String source=src.getText().toString().trim();
         String destination=dst.getText().toString().trim();
         String date=dt.getText().toString().trim();
-        String btwapi="https://api.railwayapi.com/v2/between/source/"+source+"/dest/"+destination+"/date/"+date+"/apikey/mr3ivk4qmu/";
+        String btwapi="https://api.railwayapi.com/v2/between/source/"+source+"/dest/"+destination+"/date/"+date+"/apikey/dowkgyyi2v/";
         Intent intent=new Intent(this,BtwnstationActivity.class);
         intent.putExtra("apikey",btwapi);
         startActivity(intent);

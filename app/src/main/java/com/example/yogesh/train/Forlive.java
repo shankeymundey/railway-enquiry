@@ -79,7 +79,7 @@ public class Forlive extends AppCompatActivity {
             try {
                  String train_no = tn.getText().toString().trim();
                 String date = td.getText().toString().trim();
-                String addrs = "https://api.railwayapi.com/v2/live/train/"+train_no+"/date/"+date+"/apikey/mr3ivk4qmu/";
+                String addrs = "https://api.railwayapi.com/v2/live/train/"+train_no+"/date/"+date+"/apikey/dowkgyyi2v/";
                 java.net.URL url = new java.net.URL(addrs);
                 HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
                 con.connect();

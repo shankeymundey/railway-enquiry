@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     public void shareclck(MenuItem item) {
         Intent myintent=new Intent(Intent.ACTION_SEND);
         myintent.setType("text/plain");
-        String link="https://github.com/shankeymundey/android/blob/master/app-release.apk";
+        String link="https://github.com/shankeymundey/Train-apk";
         myintent.putExtra(Intent.EXTRA_TEXT,link);
 
 
